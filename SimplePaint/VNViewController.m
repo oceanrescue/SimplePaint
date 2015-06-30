@@ -35,9 +35,8 @@
         bounds.origin.y = 54;
         bounds.size.height -= 108;
         SPPaintView *pView = [[SPPaintView alloc] initWithFrame:bounds];
-        self.paintView = pView;
         pView.autoresizingMask = UIViewAutoresizingFlexibleAll;
-        pView = nil;
+		self.paintView = pView;
     }
     return _paintView;
 }
@@ -46,13 +45,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self.view addSubview:self.paintView];
-    [self.view sendSubviewToBack:self.paintView];
 }
 -(void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     if (!_paintView) {
         [self.view addSubview:self.paintView];
+		[self.view sendSubviewToBack:self.paintView];
     }
 }
 - (void)didReceiveMemoryWarning

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2BFBEA170402B100946563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE65E4291702B87B00BAD19D /* main.m */; };
+		DE2BFBEB170402B100946563 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE65E42D1702B87B00BAD19D /* VNAppDelegate.m */; };
+		DE2BFBEC170402B100946563 /* VNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE65E4361702B87B00BAD19D /* VNViewController.m */; };
+		DE2BFBEE170402B100946563 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4781702C15500BAD19D /* QuartzCore.framework */; };
+		DE2BFBEF170402B100946563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41D1702B87B00BAD19D /* UIKit.framework */; };
+		DE2BFBF0170402B100946563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41F1702B87B00BAD19D /* Foundation.framework */; };
+		DE2BFBF1170402B100946563 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4211702B87B00BAD19D /* CoreGraphics.framework */; };
+		DE2BFBF2170402B100946563 /* libSimplePaint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E44E1702C0E700BAD19D /* libSimplePaint.a */; };
+		DE2BFBF4170402B100946563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE65E4261702B87B00BAD19D /* InfoPlist.strings */; };
+		DE2BFBF5170402B100946563 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE65E42F1702B87B00BAD19D /* Default.png */; };
+		DE2BFBF6170402B100946563 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE65E4311702B87B00BAD19D /* Default@2x.png */; };
+		DE2BFBF7170402B100946563 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE65E4331702B87B00BAD19D /* Default-568h@2x.png */; };
+		DE2BFBF8170402B100946563 /* VNViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE65E4381702B87B00BAD19D /* VNViewController_iPhone.xib */; };
+		DE2BFBF9170402B100946563 /* VNViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE65E43B1702B87B00BAD19D /* VNViewController_iPad.xib */; };
 		DE65E41E1702B87B00BAD19D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41D1702B87B00BAD19D /* UIKit.framework */; };
 		DE65E4201702B87B00BAD19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41F1702B87B00BAD19D /* Foundation.framework */; };
 		DE65E4221702B87B00BAD19D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4211702B87B00BAD19D /* CoreGraphics.framework */; };
@@ -20,15 +34,11 @@
 		DE65E43A1702B87B00BAD19D /* VNViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE65E4381702B87B00BAD19D /* VNViewController_iPhone.xib */; };
 		DE65E43D1702B87B00BAD19D /* VNViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE65E43B1702B87B00BAD19D /* VNViewController_iPad.xib */; };
 		DE65E44F1702C0E700BAD19D /* libSimplePaint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E44E1702C0E700BAD19D /* libSimplePaint.a */; };
-		DE65E4561702C11600BAD19D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41D1702B87B00BAD19D /* UIKit.framework */; };
-		DE65E4571702C11600BAD19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E41F1702B87B00BAD19D /* Foundation.framework */; };
-		DE65E4581702C11600BAD19D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4211702B87B00BAD19D /* CoreGraphics.framework */; };
-		DE65E4771702C13500BAD19D /* libSimplePaint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4501702C0F200BAD19D /* libSimplePaint.a */; };
 		DE65E4791702C15500BAD19D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4781702C15500BAD19D /* QuartzCore.framework */; };
-		DE65E47A1702C15F00BAD19D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE65E4781702C15500BAD19D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE2BFBFD170402B100946563 /* SimplePaintSimulator copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimplePaintSimulator copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE65E41A1702B87B00BAD19D /* SimplePaintSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePaintSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE65E41D1702B87B00BAD19D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE65E41F1702B87B00BAD19D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,11 +60,22 @@
 		DE65E4491702C03100BAD19D /* SPPaintLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPaintLayer.h; sourceTree = "<group>"; };
 		DE65E44E1702C0E700BAD19D /* libSimplePaint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSimplePaint.a; path = Library/Simulator/libSimplePaint.a; sourceTree = SOURCE_ROOT; };
 		DE65E4501702C0F200BAD19D /* libSimplePaint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSimplePaint.a; path = Library/Device/libSimplePaint.a; sourceTree = SOURCE_ROOT; };
-		DE65E4551702C11600BAD19D /* SimplePaintDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePaintDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE65E4781702C15500BAD19D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE2BFBED170402B100946563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2BFBEE170402B100946563 /* QuartzCore.framework in Frameworks */,
+				DE2BFBEF170402B100946563 /* UIKit.framework in Frameworks */,
+				DE2BFBF0170402B100946563 /* Foundation.framework in Frameworks */,
+				DE2BFBF1170402B100946563 /* CoreGraphics.framework in Frameworks */,
+				DE2BFBF2170402B100946563 /* libSimplePaint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE65E4171702B87B00BAD19D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,18 +85,6 @@
 				DE65E4201702B87B00BAD19D /* Foundation.framework in Frameworks */,
 				DE65E4221702B87B00BAD19D /* CoreGraphics.framework in Frameworks */,
 				DE65E44F1702C0E700BAD19D /* libSimplePaint.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE65E4521702C11600BAD19D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE65E47A1702C15F00BAD19D /* QuartzCore.framework in Frameworks */,
-				DE65E4561702C11600BAD19D /* UIKit.framework in Frameworks */,
-				DE65E4571702C11600BAD19D /* Foundation.framework in Frameworks */,
-				DE65E4581702C11600BAD19D /* CoreGraphics.framework in Frameworks */,
-				DE65E4771702C13500BAD19D /* libSimplePaint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				DE65E41A1702B87B00BAD19D /* SimplePaintSimulator.app */,
-				DE65E4551702C11600BAD19D /* SimplePaintDevice.app */,
+				DE2BFBFD170402B100946563 /* SimplePaintSimulator copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +189,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE2BFBE8170402B100946563 /* SimplePaintDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2BFBFA170402B100946563 /* Build configuration list for PBXNativeTarget "SimplePaintDevice" */;
+			buildPhases = (
+				DE2BFBE9170402B100946563 /* Sources */,
+				DE2BFBED170402B100946563 /* Frameworks */,
+				DE2BFBF3170402B100946563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePaintDevice;
+			productName = SimplePaint;
+			productReference = DE2BFBFD170402B100946563 /* SimplePaintSimulator copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DE65E4191702B87B00BAD19D /* SimplePaintSimulator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE65E4401702B87B00BAD19D /* Build configuration list for PBXNativeTarget "SimplePaintSimulator" */;
@@ -195,23 +221,6 @@
 			name = SimplePaintSimulator;
 			productName = SimplePaint;
 			productReference = DE65E41A1702B87B00BAD19D /* SimplePaintSimulator.app */;
-			productType = "com.apple.product-type.application";
-		};
-		DE65E4541702C11600BAD19D /* SimplePaintDevice */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE65E4741702C11700BAD19D /* Build configuration list for PBXNativeTarget "SimplePaintDevice" */;
-			buildPhases = (
-				DE65E4511702C11600BAD19D /* Sources */,
-				DE65E4521702C11600BAD19D /* Frameworks */,
-				DE65E4531702C11600BAD19D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimplePaintDevice;
-			productName = SimplePaintDevice;
-			productReference = DE65E4551702C11600BAD19D /* SimplePaintDevice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,12 +246,25 @@
 			projectRoot = "";
 			targets = (
 				DE65E4191702B87B00BAD19D /* SimplePaintSimulator */,
-				DE65E4541702C11600BAD19D /* SimplePaintDevice */,
+				DE2BFBE8170402B100946563 /* SimplePaintDevice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE2BFBF3170402B100946563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2BFBF4170402B100946563 /* InfoPlist.strings in Resources */,
+				DE2BFBF5170402B100946563 /* Default.png in Resources */,
+				DE2BFBF6170402B100946563 /* Default@2x.png in Resources */,
+				DE2BFBF7170402B100946563 /* Default-568h@2x.png in Resources */,
+				DE2BFBF8170402B100946563 /* VNViewController_iPhone.xib in Resources */,
+				DE2BFBF9170402B100946563 /* VNViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE65E4181702B87B00BAD19D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,16 +278,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE65E4531702C11600BAD19D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE2BFBE9170402B100946563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2BFBEA170402B100946563 /* main.m in Sources */,
+				DE2BFBEB170402B100946563 /* VNAppDelegate.m in Sources */,
+				DE2BFBEC170402B100946563 /* VNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE65E4161702B87B00BAD19D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,13 +298,6 @@
 				DE65E42A1702B87B00BAD19D /* main.m in Sources */,
 				DE65E42E1702B87B00BAD19D /* VNAppDelegate.m in Sources */,
 				DE65E4371702B87B00BAD19D /* VNViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE65E4511702C11600BAD19D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +331,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE2BFBFB170402B100946563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePaint/SimplePaint-Prefix.pch";
+				INFOPLIST_FILE = "SimplePaint/SimplePaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library/Device\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "SimplePaintSimulator copy";
+				SUPPORTED_PLATFORMS = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE2BFBFC170402B100946563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePaint/SimplePaint-Prefix.pch";
+				INFOPLIST_FILE = "SimplePaint/SimplePaint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library/Device\"",
+				);
+				PRODUCT_NAME = "SimplePaintSimulator copy";
+				SUPPORTED_PLATFORMS = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		DE65E43E1702B87B00BAD19D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +436,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphonesimulator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,37 +452,7 @@
 					"\"$(SRCROOT)/Library/Simulator\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		DE65E4751702C11700BAD19D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "SimplePaint/SimplePaint-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Library/Device\"",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		DE65E4761702C11700BAD19D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "SimplePaint/SimplePaint-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Library/Device\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphonesimulator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -436,6 +460,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE2BFBFA170402B100946563 /* Build configuration list for PBXNativeTarget "SimplePaintDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2BFBFB170402B100946563 /* Debug */,
+				DE2BFBFC170402B100946563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DE65E4151702B87B00BAD19D /* Build configuration list for PBXProject "SimplePaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -452,14 +485,7 @@
 				DE65E4421702B87B00BAD19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DE65E4741702C11700BAD19D /* Build configuration list for PBXNativeTarget "SimplePaintDevice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE65E4751702C11700BAD19D /* Debug */,
-				DE65E4761702C11700BAD19D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
